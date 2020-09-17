@@ -56,7 +56,7 @@
                     }, function() {
                         handleLocationError(true, infoWindow, map.getCenter());
                     });
-                    setTimeout(position, 1000); 
+                    setInterval(position, 1000); 
                 } else {
                     // Browser doesn't support Geolocation
                     handleLocationError(false, infoWindow, map.getCenter());
